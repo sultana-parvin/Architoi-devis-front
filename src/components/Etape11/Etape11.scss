@@ -1,0 +1,160 @@
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5rem;
+    .etape11 {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        &-container {
+            display: flex;
+            flex-direction: column;
+            font-weight: 100;
+            .etape11-container--title {
+                font-weight: lighter;
+                font-family: 'Roboto', sans-serif;
+                color: #383838;
+                font-size: 20px;
+            }
+            .etape11-container--paragraph {
+                font-weight: lighter;
+                color: #383838;
+                font-family: 'Roboto', sans-serif;
+                margin-top: 0.7rem;
+            }
+            .form {
+                width: 50vw;
+                height: 60vh;
+                &-container {
+                    width: 45vw;
+                    height: 90vh;
+                    margin-top: 3rem;
+                    margin-left: 1rem;
+                    .form-icon {
+                        width: 45px;
+                        height: 45px;
+                        margin-right: 1rem;
+                    }
+                    .form-options {
+                        width: 25rem;
+                        height: 3rem;
+                        //background-color: #f4f4f4;
+                        margin-bottom: 1rem;
+                        display: flex;
+                        border-radius: 6px;
+                    }
+                    .form-options-phone {
+                        width: 25rem;
+                        height: 3rem;
+                        //background-color: #f4f4f4;
+                        margin-bottom: 1rem;
+                        display: flex;
+                        border-radius: 6px;
+                    }
+                    .form-container--box {
+                        width: 25rem;
+                        height: 4rem;
+                        //background-color: #f4f4f4;
+                        margin-bottom: 1rem;
+                        display: flex;
+                        border-radius: 6px;
+                        flex-direction: row;
+                    }
+                    label {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        margin-left: 2rem;
+                        font-weight: 100;
+                        font-size: 20px;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                    input::placeholder {
+                        color: #383838;
+                        opacity: 0.8;
+                    }
+                    input[type='text'] {
+                        border: none;
+                        border-radius: 6px;
+                        padding: 10px;
+                        width: 100%;
+                        background-color: white;
+                        font-size: 15px;
+                        box-shadow: 1px 1px 2px 0px #5d706d;
+                        margin-right: 20px;
+                        color: #383838;
+                    }
+                    input[type='email'] {
+                        border: none;
+                        border-radius: 6px;
+                        padding: 10px;
+                        width: 100%;
+                        background-color: white;
+                        font-size: 15px;
+                        box-shadow: 1px 1px 2px 0px #5d706d;
+                        margin-right: 20px;
+                        color: #373a3c;
+                    }
+                    input[type='tel'] {
+                        border: none;
+                        border-radius: 6px;
+                        padding: 10px;
+                        width: 100%;
+                        background-color: white;
+                        font-size: 15px;
+                        box-shadow: 1px 1px 2px 0px #5d706d;
+                        margin-right: 20px;
+                        color: #373a3c;
+                    }
+                    .form-btn {
+                        width: 100%;
+                        margin-top: 4rem;
+                        display: flex;
+                    }
+                    .form-btn--style2 {
+                        background-color: #ffb800;
+                        padding: 10px 20px 10px 20px;
+                        color: #ffffff;
+                        cursor: pointer;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 15px;
+                        width: 20%;
+                    }
+                    .form-btn--style {
+                        padding: 10px 20px 10px 27px;
+                        color: #383838;
+                        cursor: pointer;
+                        border: none;
+                        border-radius: 5px;
+                        text-align: left;
+                        font-size: 15px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width: 53%;
+                    }
+                    a {
+                        text-decoration: none;
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+    .asideEtape11 {
+        width: 38%;
+        background-color: #f4f4f4;
+        height: 130vh;
+        margin-top: -6%;
+        .progressBar {
+            width: 20rem;
+            height: 1.4rem;
+            margin-top: 20rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
